@@ -4,9 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formularios</title>
 </head>
 <body>
     <a href="./index.html">Regresar</a>
+    <form>
+        <h4>Ejemplo 1 de formularios</h4>
+        <input placeholder="ingrese su nombre" />  <!-- Coloca la descripcion dentro del formulario -->              
+    </form>
+    <form>
+        <h4>Ejemplo 2 de Formularios con label Etiquetas</h4>
+        <label for="Nombre">
+            Ingrese su nombre 
+            <input name = "nombre" placeholder="Ej: Julio"> 
+        </label>
+    </form>
+    <form>
+        <h4>Ejemplo 2.1 de Formularios con label Etiquetas</h4>
+        <label for="Apellido">
+            Ingrese su Apellido 
+            <input lastname = "Apellido" placeholder="Ej: Stevenson"> 
+        </label>
+    </form>
+    <form>
+        <h4>Ejemplo 3 de Formularios con entrada numerica </h4>
+        <label for="Telefono">
+            Ingrese su Telefono 
+            <input type="number"> 
+        </label>
+    </form>
+    <form>
+        <h4>Ejemplo 4 de Formularios con entrada de fecha (calendario) </h4>
+        <label for="Fecha">
+            Ingrese su Fecha de nacimiento 
+            <input type="date"> 
+        </label>
+    </form>
+    <form>
+        <h4>Ejemplo 5 de Formularios con entrada mail </h4>
+        <label for="Correo">
+            Ingrese su Correo electronico
+            <input type="email"> 
+        </label>
+    </form>
+    <form>
+        <h4>Ejemplo 6 de Formularios con entrada oculta (Pasword)</h4>
+        <label for="Contrasena">
+            Ingrese su pasword 
+            <input type="password"> 
+        </label>
+    </form>
+    <form>
+        <h4>Ejemplo 7 de Formularios con entrada Checkbox </h4>
+        <label for="checkbox">
+             seleccion multiple
+            <input type="checkbox"> 
+        </label>
+        <form>
+            <h4>Ejemplo 8 de Formularios con entrada radio button </h4>
+            <label for="Radio">
+                Seleccion unica 
+                <input type="radio""> 
+            </label>
+        </form>
+        <form>
+            <h4>Ejemplo 9 de Formularios con entrada para cargar un archivo </h4>
+            <label for="Archivo">
+                ingrese para subir su archivo 
+                <input type="file"> 
+            </label>
+        </form>
+        <form>
+            <h4> Boton para enviar la informacion del formulario  </h4>
+                <button type="submit">Enviar datos</button>  
+        </form>
+        <form>
+            <h4> Boton para borrar informacion del formulario  </h4>
+                <button type="reset">Borrar datos </button>  
+        </form>
 </body>
 </html>
