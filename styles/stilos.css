@@ -45,3 +45,27 @@ a{
 .imagenreducidaicono{
     height: 75px;
 }
+
+.contenedorconmargen{
+    margin: 20px ;   /* Crea un margen alrededor del componente*/
+    border: 1px solid red;  /* crea el borde al elemento*/
+    padding: 10px;  /* separa el contenido del elemnto en la parte interna al borde*/
+}
+
+.contenedordivs1{     /* Contenedor con carecteristicas de unidades absolutas */
+    border: 4px solid green;
+    display: grid;  /* Tipo de Display que voy a autilizar */
+    grid-template-rows: 50px 50px 50px;    /* estas son el numero de filas de la grilla en este caso son 3*/
+    grid-template-columns: 150px 150px 150px 150px;  /*  Estos son el numero de columnas en la grilla en este caso son 4 */
+}
+
+.contenedordivs2{     /* Contenedor con carecteristicas de unidades absolutas */
+    border: 4px solid green;
+    display: grid;  /* Tipo de Display que voy a autilizar */
+    grid-template-rows: 50px 50px 50px;    /* estas son el numero de filas de la grilla en este caso son 3*/
+    grid-template-columns: 150px 150px 150px 150px;  /*  Estos son el numero de columnas en la grilla en este caso son 4 */
+}
+
+.divtest{
+    border: 1px solid red;
+}
