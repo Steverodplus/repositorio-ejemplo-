@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titulo de la pagina</title>
     <desciption>esta descripcion es la que aparece en el navegador </desciption>
+    <link href="./styles/stilos.css" rel="stylesheet"/>
 </head>    
 <body>
      <header>  <!-- Este es el header de navegacion-->
         <h1> Esta es una lista ORDENADA </h1>
         <ol> <!-- oi = order list-->
-                <li>Elemento 1 </li> <!-- li = List Items-->
-                <li>Elemento 2 </li>
-                <li>Elemento 3 </li>
-                <li>Elemento 4 </li>
+                <li class = "textorojo" >Elemento 1 </li> <!-- li = List Items-->
+                <li class = "textoazul" >Elemento 2 </li>
+                <li class = "textorojo fondorosa"> Elemento 3 </li>
+                <li class = "textoGrandeNegrita"> Elemento 4 </li>
         </ol>
         <h1> Esta es una lista DESORDENADA</h1>
         <ul>
@@ -33,31 +34,46 @@
                 <!-- La etiqueta ancla tambien puede contener cosas como por ejemplo imagenes para generar el link-->
                 <a href="https://www.google.com" > <!-- Direccion donde quiero que vaya-->
                     <img 
-                     src = "https://www.google.com/logos/doodles/2021/canada-elections-2021-6753651837109252-l.webp"  
+                    class = "imagenreducidaicono" src = "https://www.google.com/logos/doodles/2021/canada-elections-2021-6753651837109252-l.webp"  
                      alt="Foto de gato Marron" />  <!-- imagen que quiero que utilice lara el link-->
                 </a>
             </section> ">
              
                 <article> <!-- Etiqueta para textos largos -->
-                    <p> <!-- Etiqueta para los parrafos -->
+                    <p class = "parrafoazul"> <!-- Etiqueta para los parrafos -->
                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
-                    <p>
+                    <p class = "parrafonegro">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
-                    <p>
+                    <p class = "parrafonegro">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p class = "parrafonegro">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p class = "parrafonegro">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p class ="parrafonaranja">  <!--Colocacion de identificador a la etiqueta-->
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <span>Este sirve para textos cortos... </span>
                 </article>
-                <img src = "./media/gato-marron_0.webp" alt="Foto de gato Marron" />  <!-- Esta es una etiqueta de imagen con imagen local-->
-                <img src = "https://www.google.com/logos/doodles/2021/canada-elections-2021-6753651837109252-l.webp" alt="Foto de gato Marron" />  <!-- Esta es una etiqueta de imagen con imagen en la nuve -->
+                <img class = "imagenreducida" src = "./media/gato-marron_0.webp" alt="Foto de gato Marron" />  <!-- Esta es una etiqueta de imagen con imagen local-->
+                <img class = "imagenreducidaicono" src = "https://www.google.com/logos/doodles/2021/canada-elections-2021-6753651837109252-l.webp" alt="Foto de gato Marron" />  <!-- Esta es una etiqueta de imagen con imagen en la nuve -->
              </section> 
             <section>Seccion 2 de la pagina </section>
             <section>Seccion 3 de la pagina </section>

@@ -1,0 +1,47 @@
+p{ 
+    color: rgb(53, 6, 6);
+}
+h1{
+    color: crimson;
+}
+a{
+    background-color: burlywood;
+}
+
+
+#parrafo3 {  /* Modificador de selectores con id                                             */
+    color: chocolate;
+}
+
+.parrafonegro { /*modificador de selector por class */
+    color: black;
+}
+.parrafoazul {
+    color: blue;
+}
+.parrafonaranja {
+    color: orangered;
+}
+.textorojo {
+    color: crimson;
+}
+.textoazul {
+    color: mediumblue;
+}
+.fondorosa {
+    background-color: lightpink;
+} 
+.textoGrandeNegrita {
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; /* esta propiedad permite cambiar el tipo de fuente*/
+}
+
+.imagenreducida{    /* Modificador de tamano por clase */
+    height: 200px;
+}
+
+.imagenreducidaicono{
+    height: 75px;
+}
