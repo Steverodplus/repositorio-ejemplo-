@@ -59,13 +59,22 @@ a{
     grid-template-columns: 150px 150px 150px 150px;  /*  Estos son el numero de columnas en la grilla en este caso son 4 */
 }
 
-.contenedordivs2{     /* Contenedor con carecteristicas de unidades absolutas */
-    border: 4px solid green;
-    display: grid;  /* Tipo de Display que voy a autilizar */
-    grid-template-rows: 50px 50px 50px;    /* estas son el numero de filas de la grilla en este caso son 3*/
-    grid-template-columns: 150px 150px 150px 150px;  /*  Estos son el numero de columnas en la grilla en este caso son 4 */
-}
-
 .divtest{
     border: 1px solid red;
+}
+
+.contenedordivs2{     /* Contenedor con carecteristicas de unidades relativas  */
+    border: 4px solid green;
+    display: grid;  /* Tipo de Display que voy a autilizar */
+    grid-column: auto;
+    grid-template-rows: 50px 50px 50px;    /* estas son el numero de filas de la grilla en este caso son 3*/
+    grid-template-columns: 25% 25% 25% 25%;  /*  Estos son el numero de columnas en la grilla en este caso son 4 */
+}
+
+.contenedordivsflex{     /* Contenedor con carecteristicas de unidades relativas  */
+    border: 4px solid green;
+    display: flex;  /* Tipo de Display que voy a autilizar */
+    height: 300px;
+    justify-content: center; /* Desplaza los elementos al centro en horizontal */
+    align-items: center; /* Desplaza los elementos al centro en vertical */
 }
